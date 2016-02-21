@@ -1,0 +1,9 @@
+# Site settings
+title: "Altcoin Trading"
+subtitle: "The forex of cryptocurrencies, bitcoin as the base."
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://altcointrading.net" # the base hostname & protocol for your site
+author: "AltcoinTrading"
+# Build settings
+markdown: kramdown
