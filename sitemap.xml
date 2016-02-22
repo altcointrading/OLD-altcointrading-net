@@ -1,24 +1,50 @@
----
-navi:
- exclude: yes
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>{{ site.url }}</loc>
+        <loc>https://altcointrading.net</loc>
     </url>
 
-    {% for page in site.pages %}
-    {% unless page.navi.exclude == true %}
+    
+    
     <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
+        <loc>https://altcointrading.net/about/</loc>
     </url>
-    {% endunless %}
-    {% endfor %}
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://altcointrading.net/referral-bonuses/</loc>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://altcointrading.net/category/arbitrage.html</loc>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://altcointrading.net/disclaimer/</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    
 
-    {% for post in site.posts %}
+    
     <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
+        <loc>https://altcointrading.net/automated-trading/</loc>
     </url>
-    {% endfor %}
+    
+    <url>
+        <loc>https://altcointrading.net/altcoin-trading-charts/</loc>
+    </url>
+    
 </urlset>
