@@ -19,6 +19,21 @@ h6 {
     font-family: 'Slabo 27px', serif;
 }
 
+.maincontent h3 {
+  margin-top: 0px;
+  background: rgba(122, 131, 141, 0.64);
+  color: #fff;
+  padding: 5px 10px 3px;
+  margin-left: -10px;
+  font-size: 2.3rem;
+}
+.maincontent p a{
+  border-bottom: 2px solid #7A838D;
+}
+.maincontent img a{
+  border-bottom: 0px solid #7A838D;
+}
+
 h4.post {
     margin-top: 0px;
     background: #7A838D;
@@ -53,7 +68,7 @@ img.post {
     max-width: 100%
 }
 
-note {
+span#note {
     background: #001f3f;
     color: #fff;
     position: relative;
@@ -66,7 +81,7 @@ note {
     transition: all .2s ease-in-out
 }
 
-note:hover {
+span#note:hover {
     left: -15px
 }
 
@@ -147,6 +162,9 @@ nav ul ul li a {
 ul.divided li {
     list-style-type: none
 }
+ul.divided li div {
+  text-align:center;
+}
 
 #sidebar h3,
 #sidebar h3 a {
@@ -214,6 +232,22 @@ figure.post {
     max-width: 100%!important;
     margin: 0 0 30px;
 }
+figure.border {
+max-width: 100%!important;
+margin: 0 0 30px;
+border: 2px dotted #7A838D;
+}
+
+.notopmargin {
+  margin-top:0;
+}
+.shifted-left{
+  margin-left: -10px;
+}
+.text-center{
+  text-align:center;
+}
+
 .footer{
 line-height: 50px;
 border-top: 2px solid #7A838D;
@@ -222,6 +256,8 @@ font-size: 80%;
 .contacticon .center {font-size: 30px;
     text-align: center;
     display: block;}
+
+figure.chart {margin:1.5em 0}
 /* Media Queries */
 /* Larger than mobile */
 @media (min-width: 400px) {}
